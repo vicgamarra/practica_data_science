@@ -5,31 +5,31 @@ Este proyecto aplica técnicas avanzadas de análisis de series temporales con P
 
 📌 Descripción del proceso realizado:
 
-Carga y exploración de datos:
+1. Carga y exploración de datos:
 Se parte de un dataset histórico de ventas, que es analizado para comprender su estructura temporal y evaluar posibles transformaciones.
 
-Preprocesamiento:
+2. Preprocesamiento:
 
-Conversión de fechas a formato de índice temporal
+   - Conversión de fechas a formato de índice temporal
 
-Agrupación por periodos mensuales
+   - Agrupación por periodos mensuales
 
-Visualización de tendencias y estacionalidades
+   - Visualización de tendencias y estacionalidades
 
-Revisión de valores atípicos o inconsistencias
+   - Revisión de valores atípicos o inconsistencias
 
-Análisis de Estacionariedad:
+3. Análisis de Estacionariedad:
 Se aplican pruebas estadísticas (como ADF) y visualizaciones (rolling mean y std) para evaluar la estacionariedad, condición clave para aplicar modelos ARIMA.
 
-Modelado con ARIMA:
+4. Modelado con ARIMA:
 
-Identificación de parámetros óptimos (p, d, q) mediante el análisis ACF y PACF
+  - Identificación de parámetros óptimos (p, d, q) mediante el análisis ACF y PACF
 
-Entrenamiento del modelo ARIMA con statsmodels
+  - Entrenamiento del modelo ARIMA con statsmodels
 
-Evaluación del ajuste y diagnóstico de residuos
+  - Evaluación del ajuste y diagnóstico de residuos
 
-Pronóstico y Visualización:
+5. Pronóstico y Visualización:
 Se realizan predicciones a futuro y se representan gráficamente junto a los datos históricos para facilitar la interpretación del modelo y validar su precisión.
 
 📊 Resultado:
